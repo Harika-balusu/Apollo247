@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="88.745" tests="6" skipped="0" failures="0" errors="0">
+<testcase classname="Working with Apollo247 Consult Module" name="select location" time="6.834">
+<system-out><![CDATA[
+Given User clicks on consult module.........................................passed
+When User navigates to consult module.......................................passed
+Then User succesfully navigated.............................................passed
+When User selects a location................................................passed
+Then Location is selected successfully......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Working with Apollo247 Consult Module" name="select doctor for visit doctor" time="26.405">
+<system-out><![CDATA[
+Given User clicks on consult module.........................................passed
+When User navigates to consult module.......................................passed
+Then User succesfully navigated.............................................passed
+When User selects a location................................................passed
+Then Location is selected successfully......................................passed
+When User selects doctor....................................................passed
+When User proceeds to payment...............................................passed
+Then Appointment is booked successfully.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Working with Apollo247 Consult Module" name="select doctor for Haematology - Example #1.1" time="7.827">
+<system-out><![CDATA[
+Given User clicks on consult module.........................................passed
+When User navigates to consult module.......................................passed
+Then User succesfully navigated.............................................passed
+When User select a Location.................................................passed
+Then Location is selected succesfully.......................................passed
+When User searches for Haematology doctor "Haematology".....................passed
+And User selects an Haematology doctor......................................passed
+Then Appointment is booked successfully.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Working with Apollo247 Consult Module" name="Search for Neurology" time="29.684">
+<system-out><![CDATA[
+Given User clicks on consult module.........................................passed
+When User navigates to consult module.......................................passed
+Then User succesfully navigated.............................................passed
+When User select a Location.................................................passed
+Then Location is selected succesfully.......................................passed
+When User searches for Neurology doctor.....................................passed
+Then search is succesful....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Working with Apollo247 Consult Module" name="select Neurology doctor" time="9.262">
+<system-out><![CDATA[
+Given User clicks on consult module.........................................passed
+When User navigates to consult module.......................................passed
+Then User succesfully navigated.............................................passed
+When User select a Location.................................................passed
+Then Location is selected succesfully.......................................passed
+When User searches for Neurology doctor.....................................passed
+Then search is succesful....................................................passed
+When User selects neuro doctor..............................................passed
+Then Appointment is booked successfully.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Working with Apollo247 Consult Module" name="select orthopedic" time="8.472">
+<system-out><![CDATA[
+Given User clicks on consult module.........................................passed
+When User navigates to consult module.......................................passed
+Then User succesfully navigated.............................................passed
+Given scroll down to menu...................................................passed
+When User clicks on orthopedic..............................................passed
+And User applies required filters...........................................passed
+Then Doctor not found.......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
